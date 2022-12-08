@@ -4,11 +4,11 @@
 
 /**
  *
- * main - Entry point
+ * This is the preferred
  *
  *   
  *
- * Return: Always 0 (success)
+ * commenting style
  *
  */
 
