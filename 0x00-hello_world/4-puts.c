@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * This is the preferred
+ *
+ *commenting style
+ *
+ *
+ *
+ */
 int main(void)
 
 {
