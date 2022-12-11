@@ -19,7 +19,7 @@ int main(void)
 			if (units != tens)
 			{
 				putchar(tens);
-		 		putchar(units);		
+				putchar(units);		
 			}
 			tens++;
 			units++;
