@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
-/**                                                                                                                                      * main - returns alphabets
+/**
+ * main - retuns lower and upper case alphabets
  *
  * Return: Always 0 (Success)
  *
