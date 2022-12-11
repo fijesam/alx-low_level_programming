@@ -1,9 +1,9 @@
-#include <stdio.h>                                                                                                                      
-#include <stdlib.h>                                                                                                                     
+#include <stdio.h>
+#include <stdlib.h> 
 
-/**                                                                                                                                     
- * main - returns alphabets                                                                                                              *
- * Return: Always 0 (Success)                                                                                                           
+/**                                                                                                                                      * main - returns alphabets
+ *
+ * Return: Always 0 (Success)
  *
  */
 
@@ -17,7 +17,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	while (CH <= 'A')
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
