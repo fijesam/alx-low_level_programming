@@ -20,11 +20,11 @@ int main(void)
 			{
 				putchar(tens);
 				putchar(units);
+				putchar(',');
 			}
 			units++;
 			tens++;
 		}
-		putchar(',');
 	}
 	putchar('\n');
 	return (0);
