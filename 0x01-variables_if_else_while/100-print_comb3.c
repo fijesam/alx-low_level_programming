@@ -16,7 +16,7 @@ int main(void)
 	{
 		while (units <= '9')
 		{
-			if (units != tens)
+			if (!(units == tens))
 			{
 				putchar(tens);
 				putchar(units);
