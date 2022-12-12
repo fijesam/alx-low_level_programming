@@ -21,9 +21,9 @@ int main(void)
 				putchar(tens);
 				putchar(units);
 			}
+			units++;
 			tens++;
 		}
-		units++;
 		putchar(',');
 	}
 	putchar('\n');
