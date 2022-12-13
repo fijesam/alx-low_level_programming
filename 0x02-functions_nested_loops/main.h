@@ -1,10 +1,7 @@
 #ifndef H
 #define H
 
-int _putchar(char c)
-{
-return (write(1,&c,1));
-}
+int _putchar(char c);
 void print _alphabet(void);
 void print _alphabet_x10(void);
 int _islower(int c);
