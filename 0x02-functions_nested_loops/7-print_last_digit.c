@@ -18,7 +18,7 @@ int print_last_digit(int n)
 	}
 	else
 	{
-		_putchar(units)
+		_putchar(units);
 	}
 	return (units);
 }
