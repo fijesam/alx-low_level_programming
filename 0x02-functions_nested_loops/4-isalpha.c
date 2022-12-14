@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - Check for capital letters
+ * @c - the argument
  *
  * Return: 1 if capital letter, 0 if otherwise
  *
