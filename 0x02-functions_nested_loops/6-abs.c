@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * _abs - absolute value 
- * @n: The argument
+ * _abs - returns an int
+ * @n: the argument
  *
- * Return: returns an int.
+ * Return: a number if successful
+ *
  */
 
 int _abs(int n)
