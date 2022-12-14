@@ -5,7 +5,7 @@
  *
  * @c: the argument
  *
- * Returns: 1 if lower case, otherwise 0
+ * Return: 1 if lower case, otherwise 0
  *
  */
 
