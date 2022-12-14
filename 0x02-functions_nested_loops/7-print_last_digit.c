@@ -14,11 +14,7 @@ int print_last_digit(int n)
 	if (units < 0)
 	{
 		units *= -1;
-		_putchar(units);
 	}
-	else
-	{
-		_putchar(units);
-	}
+	_putchar(units);
 	return (units);
 }
