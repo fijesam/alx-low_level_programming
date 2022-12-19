@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - updates value
  * @n: the argument
- * Return: Always 0(Success)
+ * Return: void
  */
 
 void reset_to_98(int *n)

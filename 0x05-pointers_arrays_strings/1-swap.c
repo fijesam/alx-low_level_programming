@@ -5,7 +5,7 @@
  * swap_int - swaps to integers
  * @a: first argument/integer
  * @b: second argument/integer
- * Return: Always 0(Success)
+ * Return: void
  */
 
 void swap_int(int *a, int *b)

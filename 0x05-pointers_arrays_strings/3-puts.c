@@ -4,7 +4,7 @@
 /**
  * _puts - prints a string to screen
  * @str: argument
- * Return: Always 0 (Success)
+ * Return: void
  */
 
 void _puts(char *str)
