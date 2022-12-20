@@ -9,22 +9,22 @@
 
 int _atoi(char *s)
 {
-	int x, a = 0;
+	int y, x, a = 0;
 
 	int b, c = 1;
 
-	for (int c = 0; *(s + c) != '\0'; c++)
+	for (int y = 0; *(s + y) != '\0'; y++)
 	{
-		if (*(s + c) == '-')
+		if (*(s + y) == '-')
 			b *= -1;
-		if (x > 0 && *(s + c) < '0' || *(s + c) > '9')
+		if (x > 0 && *(s + y) < '0' || *(s + y) > '9')
 			break;
-		if (*(s + c) >= '0' && *(s + c) <= '9')
+		if (*(s + y) >= '0' && *(s + y) <= '9')
 			if (x > 0)
 				c *= 10;
 			x++;
 	}
-	for (int i = c - x; i < c; i++)
+	for (int i = y - x; i < y; i++)
 		a = a + ((*(s + i) - 48) * c);
 		c /= 10;
 	return (a * b);
