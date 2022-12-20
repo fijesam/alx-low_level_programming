@@ -9,9 +9,7 @@
 
 int _atoi(char *s)
 {
-	int y, x, a = 0;
-
-	int b, c = 1;
+	int y = 0, x = 0, a = 0, b = 1, c = 1, i;
 
 	for (y = 0; *(s + y) != '\0'; y++)
 	{
@@ -19,7 +17,7 @@ int _atoi(char *s)
 		{
 			b *= -1;
 		}
-		if ((x > 0) && *(s + y) < '0' || *(s + y) > '9')
+		if ((x > 0) && (*(s + y)) < '0' || (*(s + y)) > '9')
 		{
 			break;
 		}
@@ -33,8 +31,10 @@ int _atoi(char *s)
 		}
 	}
 	for (i = y - x; i < y; i++)
+	{
 		a = a + ((*(s + i) - 48) * c);
 		c /= 10;
+	}
 	return (a * b);
 
 }
