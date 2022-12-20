@@ -13,7 +13,7 @@ int _atoi(char *s)
 
 	int b, c = 1;
 
-	for (int y = 0; *(s + y) != '\0'; y++)
+	for (y = 0; *(s + y) != '\0'; y++)
 	{
 		if (*(s + y) == '-')
 			b *= -1;
@@ -24,7 +24,7 @@ int _atoi(char *s)
 				c *= 10;
 			x++;
 	}
-	for (int i = y - x; i < y; i++)
+	for (i = y - x; i < y; i++)
 		a = a + ((*(s + i) - 48) * c);
 		c /= 10;
 	return (a * b);
