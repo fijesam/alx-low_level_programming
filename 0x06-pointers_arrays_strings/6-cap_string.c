@@ -17,7 +17,7 @@ char *cap_string(char *str)
 		{
 			str[0] = str[0] - 32;
 		}
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ',' || str[i] == ';' || str[i] == '.'
+		else if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ',' || str[i] == ';' || str[i] == '.'
 				|| str[i] == ':' || str[i] == '!' || str[i] == '?' || str[i] == '"' || str[i] == '('
 				|| str[i] == ')' || str[i] == '{' || str[i] == '}' || str[i] == '[' || str[i] == ']')
 		{
@@ -25,6 +25,10 @@ char *cap_string(char *str)
 			{
 				str[i + 1] = str[i + 1] - 32;
 			}
+		}
+		else
+		{
+			str = str;
 		}
 	}
 	return (str);
