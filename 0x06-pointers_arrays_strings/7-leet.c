@@ -20,6 +20,7 @@ char *leet(char *str)
 			if (*(str + i) == small[j] || *(str + i) == caps[j])
 			{
 				*(str + i) = list[j];
+				break;
 			}
 		}
 	}
