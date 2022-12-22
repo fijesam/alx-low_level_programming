@@ -17,7 +17,7 @@ char *leet(char *str)
 
 	int list[] = {52, 51, 48, 55, 49};
 
-	for (i = 0; *(str + i) != '\0', i++)
+	for (i = 0; *(str + i) != '\0'; i++)
 	{
 		for (j = 0; j < 5; j++)
 		{
