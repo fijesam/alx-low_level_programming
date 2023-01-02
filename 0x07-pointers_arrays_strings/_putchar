@@ -1,0 +1,13 @@
+#include <unistd.h>
+
+/**
+ * _putchar - writes the argument to stdout
+ * @c: the argument
+ * Return: the argument
+ */
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
