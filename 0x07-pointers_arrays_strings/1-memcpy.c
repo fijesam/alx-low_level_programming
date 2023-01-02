@@ -10,7 +10,9 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	if (n > 0)
+	int size = n;
+
+	if (size > 0)
 	{
 		int i;
 
